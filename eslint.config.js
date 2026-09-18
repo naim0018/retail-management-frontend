@@ -3,10 +3,7 @@ import globals from "globals";
 import reactHooks from "eslint-plugin-react-hooks";
 import reactRefresh from "eslint-plugin-react-refresh";
 import tseslint from "typescript-eslint";
-import { createRequire } from "module";
 import { createRequire } from 'module';
-
-const require = createRequire(import.meta.url);
 
 const require = createRequire(import.meta.url);
 
