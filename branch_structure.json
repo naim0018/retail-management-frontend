@@ -1,0 +1,21 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "agent-service",
+    "dev/naim",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "agent-service": "main",
+    "dev/naim": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "agent-service",
+    "dev/naim",
+    "origin"
+  ]
+}
